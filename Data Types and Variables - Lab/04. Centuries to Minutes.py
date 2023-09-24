@@ -1,0 +1,6 @@
+Centuries = int(input())
+centuries_to_years = int(100 * Centuries)
+centuries_to_days = int(365.2422 * centuries_to_years)
+centuries_to_hours = int(24 * centuries_to_days)
+centuries_to_minutes = int(60 * centuries_to_hours)
+print(f"{Centuries} centuries = {centuries_to_years} years = {centuries_to_days} days = {centuries_to_hours} hours = {centuries_to_minutes} minutes")
